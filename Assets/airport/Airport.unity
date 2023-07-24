@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 9b43673e44cbc6c4198df10d9a1e2349, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2951532, g: 0.36527547, b: 0.4841014, a: 1}
+  m_IndirectSpecularColor: {r: 0.29537207, g: 0.3654361, b: 0.48416027, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -374,7 +374,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 322087444}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 322087444}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 322087443}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 322087443}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -756,7 +756,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 1937497335}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -764,7 +764,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 1937497335}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -772,7 +772,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 1937497334}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -780,7 +780,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 1937497334}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -874,7 +874,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 1184568072}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -882,7 +882,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 1184568072}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -890,7 +890,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 1184568071}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -898,7 +898,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 1184568071}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -1308,7 +1308,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1058652282}
   - component: {fileID: 1058652285}
-  - component: {fileID: 1058652284}
   - component: {fileID: 1058652283}
   m_Layer: 0
   m_Name: Exit (1)
@@ -1354,88 +1353,6 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
-        syncedAnimator: {fileID: 0}
-        parameter: Open
-        parameterType: 0
-        operation: 0
-        floatValue: 0
-        intValue: 0
-        boolValue: 0
-      - animator: {fileID: 1937497333}
-        syncedAnimator: {fileID: 0}
-        parameter: Close
-        parameterType: 0
-        operation: 0
-        floatValue: 0
-        intValue: 0
-        boolValue: 1
-      - animator: {fileID: 1937497332}
-        syncedAnimator: {fileID: 0}
-        parameter: Open
-        parameterType: 0
-        operation: 0
-        floatValue: 0
-        intValue: 0
-        boolValue: 0
-      - animator: {fileID: 1937497332}
-        syncedAnimator: {fileID: 0}
-        parameter: Close
-        parameterType: 0
-        operation: 0
-        floatValue: 0
-        intValue: 0
-        boolValue: 1
-    questEvent:
-      events: []
-  onExitEvent:
-    id: 0
-    unityEventIsSynced: 0
-    unityEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    animatorEvent:
-      events: []
-    questEvent:
-      events: []
-  deprecated_onEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  deprecated_onExit:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1058652284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058652281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24533cd6da2394ed2bea6783b0af62c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  listenFor: 0
-  onEnterEvent:
-    id: 0
-    unityEventIsSynced: 0
-    unityEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    animatorEvent:
-      events: []
-    questEvent:
-      events: []
-  onExitEvent:
-    id: 0
-    unityEventIsSynced: 0
-    unityEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    animatorEvent:
-      events:
       - animator: {fileID: 1062766071}
         syncedAnimator: {fileID: 0}
         parameter: Open
@@ -1468,6 +1385,16 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
+    questEvent:
+      events: []
+  onExitEvent:
+    id: 0
+    unityEventIsSynced: 0
+    unityEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    animatorEvent:
+      events: []
     questEvent:
       events: []
   deprecated_onEnter:
@@ -1535,7 +1462,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 1062766071}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -1543,7 +1470,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 1062766071}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -1551,7 +1478,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 1062766070}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -1559,7 +1486,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 1062766070}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -1640,7 +1567,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 952580558}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -1648,7 +1575,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 952580558}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -1656,7 +1583,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 952580557}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -1664,7 +1591,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 952580557}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -1703,6 +1630,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.526657, y: 1, z: 1.9846628}
   m_Center: {x: -0.012539148, y: -5.545184e-16, z: 0.101520784}
+--- !u!95 &1112281072 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1766925615823555127, guid: b81617f8825cf8141b73a42a31372c82,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716793170910086364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1112281073 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1522858581303578908, guid: b81617f8825cf8141b73a42a31372c82,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716793170910086364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1184568071 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1766925614857627154, guid: b81617f8825cf8141b73a42a31372c82,
@@ -1893,7 +1832,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 2018453639}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -1901,7 +1840,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 2018453639}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -1909,7 +1848,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 2018453638}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -1917,7 +1856,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 2018453638}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -2175,7 +2114,7 @@ MonoBehaviour:
           m_CallState: 2
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 214988184}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -2183,7 +2122,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 214988184}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -2191,7 +2130,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 214988183}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -2199,7 +2138,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 214988183}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -2429,7 +2368,7 @@ MonoBehaviour:
         m_Calls: []
     animatorEvent:
       events:
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 283833283}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -2437,7 +2376,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497333}
+      - animator: {fileID: 283833283}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -2445,7 +2384,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 1
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 283833282}
         syncedAnimator: {fileID: 0}
         parameter: Open
         parameterType: 0
@@ -2453,7 +2392,7 @@ MonoBehaviour:
         floatValue: 0
         intValue: 0
         boolValue: 0
-      - animator: {fileID: 1937497332}
+      - animator: {fileID: 283833282}
         syncedAnimator: {fileID: 0}
         parameter: Close
         parameterType: 0
@@ -2820,6 +2759,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 590629284da771c41b00045582d77bdb, type: 2}
+    - target: {fileID: 1716793172964755235, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
+      value: 
+      objectReference: {fileID: 1112281073}
+    - target: {fileID: 1716793172964755235, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
+      value: 
+      objectReference: {fileID: 1112281073}
+    - target: {fileID: 1716793172964755235, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
+      value: 
+      objectReference: {fileID: 1112281072}
+    - target: {fileID: 1716793172964755235, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
+      value: 
+      objectReference: {fileID: 1112281072}
     - target: {fileID: 1882317008906826101, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2944,22 +2903,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 2018453639}
     - target: {fileID: 5905346396590476944, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 2018453639}
     - target: {fileID: 5905346396590476944, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 2018453638}
     - target: {fileID: 5905346396590476944, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 2018453638}
     - target: {fileID: 5905346396590476944, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3020,6 +2979,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.975
       objectReference: {fileID: 0}
+    - target: {fileID: 5905346396939007503, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
+      value: 
+      objectReference: {fileID: 1112281073}
+    - target: {fileID: 5905346396939007503, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
+      value: 
+      objectReference: {fileID: 1112281073}
+    - target: {fileID: 5905346396939007503, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
+      value: 
+      objectReference: {fileID: 1112281072}
+    - target: {fileID: 5905346396939007503, guid: b81617f8825cf8141b73a42a31372c82,
+        type: 3}
+      propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
+      value: 
+      objectReference: {fileID: 1112281072}
     - target: {fileID: 5905346397039241926, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
@@ -3084,22 +3063,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 322087444}
     - target: {fileID: 5905346397056960911, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 322087444}
     - target: {fileID: 5905346397056960911, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 322087443}
     - target: {fileID: 5905346397056960911, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 322087443}
     - target: {fileID: 5905346397056960911, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3164,22 +3143,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 214988184}
     - target: {fileID: 5905346397066160879, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 214988184}
     - target: {fileID: 5905346397066160879, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 214988183}
     - target: {fileID: 5905346397066160879, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 214988183}
     - target: {fileID: 5905346397066160879, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3234,22 +3213,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 1184568072}
     - target: {fileID: 5905346397602683434, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 1184568072}
     - target: {fileID: 5905346397602683434, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 1184568071}
     - target: {fileID: 5905346397602683434, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 1184568071}
     - target: {fileID: 5905346397602683434, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3294,22 +3273,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 283833283}
     - target: {fileID: 5905346397964190683, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 283833283}
     - target: {fileID: 5905346397964190683, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 283833282}
     - target: {fileID: 5905346397964190683, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 283833282}
     - target: {fileID: 5905346397964190683, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3364,22 +3343,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 1937497335}
     - target: {fileID: 5905346398269274828, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 1937497335}
     - target: {fileID: 5905346398269274828, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 1937497334}
     - target: {fileID: 5905346398269274828, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 1937497334}
     - target: {fileID: 5905346398269274828, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3454,22 +3433,22 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 952580558}
     - target: {fileID: 5905346398392533756, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[1].animator
       value: 
-      objectReference: {fileID: 1937497333}
+      objectReference: {fileID: 952580558}
     - target: {fileID: 5905346398392533756, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[2].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 952580557}
     - target: {fileID: 5905346398392533756, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[3].animator
       value: 
-      objectReference: {fileID: 1937497332}
+      objectReference: {fileID: 952580557}
     - target: {fileID: 5905346398392533756, guid: b81617f8825cf8141b73a42a31372c82,
         type: 3}
       propertyPath: onEnterEvent.animatorEvent.events.Array.data[0].parameter
@@ -3610,7 +3589,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ac6062f9aa7616749b9abc12ac7ac891, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5905346398471192029, guid: b81617f8825cf8141b73a42a31372c82, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b81617f8825cf8141b73a42a31372c82, type: 3}
 --- !u!1 &1716793170910086365 stripped
 GameObject:
